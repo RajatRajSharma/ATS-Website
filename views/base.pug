@@ -1,0 +1,28 @@
+//- layout.pug
+doctype html
+html
+  head
+    title Rajat's Applicant tracking system
+    block scripts
+    block style
+  body
+    second_box.boxn
+        div.title
+            div#logo 
+                img(src= "https://cdn.pixabay.com/photo/2018/03/18/18/55/cat-3237903_960_720.png", alt= "logo Image", class= "logoImage")
+            div.tit 
+                div.ti TrackApplicant
+                div.des Is your resume good enough?
+        div.nav    
+            div#navbar 
+                ul 
+                    li #[a(href= "/") Home ]
+                    li #[a(href= "/") Resume Templates ]
+                    li #[a(href= "/") Career Counseling ]
+                    li #[a(href= "/") Pricing ]
+                    li #[a(href= "/contact") Contact Us ]
+            div#log Log in 
+            div#sign Sign up
+    block content
+    footer#footer 
+        p Copyright © 2022 Rajat's Applicant tracking system .com | All Rights Reserve 

@@ -1,0 +1,86 @@
+extends base.pug
+
+block scripts 
+    script(src='/stactic/script.js')
+
+block style
+    style 
+        include ../static/style.css
+
+block content
+    second_box.boxi
+        div#introSection 
+            div#intro1 
+                img(src= "https://cdn.pixabay.com/photo/2022/03/15/18/06/portfolio-7070886_960_720.png", alt= "intro Image", class= "macImage")
+            div.resCheck 
+                div.topic1  Is your resume good enough ?
+                div.desc1 Our free and fast resume checker will give you the answer in just 5 minutes! 
+                div#upload1 
+                    div#upload101 UPLOAD YOUR RESUME
+    section.informationSection
+        div#featureDiv
+            div.backgrey     
+                div.function  
+                    div#icon2
+                        img(src= "https://cdn.pixabay.com/photo/2016/03/31/19/15/brain-1294854_960_720.png", alt= "icon Image", class= "icon2Image")
+                    div.theory
+                        div.topic2 Skill-Based testing
+                        div.desc2
+                            p Test applicants on their skills and knowledge in various areas to ensure they are the right fit for the job. 
+                div.function  
+                    div#icon2
+                        img(src= "https://cdn.pixabay.com/photo/2017/06/21/18/44/exam-2428208_960_720.png", alt= "icon Image", class= "icon2Image")
+                    div.theory
+                        div.topic2 Automated Resume Screening
+                        div.desc2 
+                            p Our applicant tracking system automatically screens resumes based on keywords and filters out unqualified candidates.
+                div.function  
+                    div#icon23
+                        img(src= "https://cdn.pixabay.com/photo/2016/03/23/22/26/user-1275780_960_720.png", alt= "icon Image", class= "icon2Image")
+                    div.theory
+                        div.topic2 Collaborative Hiring
+                        div.desc2 
+                            p Collaborate with your team to evaluate and compare candidates, making data-driven hiring decisions.  
+        div#operationDiv
+            div.os
+                div.card
+                    div.clip Resume Templates     
+                    
+                div.card
+                    div.clip Resume Examples
+                    
+                div.card
+                    div.clip Proofreading
+
+                div.card
+                    div.clip Jobs on Board
+                    
+    templates#templatesSection 
+        div.templateinfo
+            div.temptheory
+                div.temptopic   One resume builder, hundreds of templates
+                div.tempdesc 
+                    p Choose from hundreds of professionally designed and ATS-friendly resume templates , tens of resume sections, and thousands of combinations made to make you stand out.
+        div.templatetype
+                img(src= "https://images.ctfassets.net/pdf29us7flmy/b5cddb5d-1dc0-5015-a754-34acd9eb7a52/0b685683642454f069b0a8bcd9f65c17/resized.jpg?w=720&q=100&fm=avif", alt= "temptype", class= "tempOption")
+
+                img(src= "https://images.ctfassets.net/pdf29us7flmy/b790775c-b0af-5591-898f-c90a935c0058/12473440d178dbbaac2a620bcd620d63/resized.jpg?w=720&q=100&fm=avif", alt= "temptype", class= "tempOption")
+          
+                img(src= "https://images.ctfassets.net/pdf29us7flmy/04e8a81c-9170-5ac8-bcab-57c1057be04a/85de0eecdfee5bedcb870c25285699d8/resized.jpg?w=720&q=100&fm=avif", alt= "temptype", class= "tempOption")
+    section#proofSection 
+        div.proofleft 
+            div.prooftopic Check your resume for grammatical error and lack in required skill
+            div.proofdesc 
+                p Our resume builder comes with a content analyzing tool. You won’t let mistakes or typos cost you the job. You’ll also cut out clichés, repetition, vague wording, and phrases that are not performance-oriented.
+                p It also point out the skill that your resume may be lacking for a job.
+            div#proofbtn1 
+                div#btn101 Build a mistake-free resume
+        div.proofright
+            img(src= "https://enhancv.com/static/23b437129404197e051140e117f7a112/8b553/enhancv-content-improvement%402x.png", alt= "ProofIMG", class= "imgproof")           
+    section#sponsorSection 
+        h2 Our Sponsors
+        div.ss
+            img(src= "https://cdn.pixabay.com/photo/2016/06/13/17/30/mail-1454731_960_720.png", alt= "Sponsor Image", class= "spImage")
+            img(src= "https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80658_960_720.png", alt= "Sponsor Image", class= "spImage")
+            img(src= "https://cdn.pixabay.com/photo/2016/06/03/15/35/customer-service-1433639_960_720.png", alt= "Sponsor Image", class= "spImage")
+            img(src= "https://cdn.pixabay.com/photo/2016/01/16/08/04/aperture-1142967_960_720.png", alt= "Sponsor Image", class= "spImage") 

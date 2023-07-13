@@ -1,0 +1,20 @@
+{
+  "name": "ats",
+  "version": "1.0.0",
+  "description": "Applicant tracking system",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ATS"
+  ],
+  "author": "Rajat",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1",
+    "pug": "^3.0.2",
+    "slugify": "^1.6.6"
+  }
+}

@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lobster+Two:ital,wght@1,700&family=Mynerve&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Roboto:ital@1&display=swap');
+*{
+    margin: 0;
+    box-sizing: boder-box;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+#log{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(221, 247, 238);
+    border-radius: 15px;
+    font-size: 1.5rem;
+    margin: 10px 10px;
+    width: 12%;
+    height: 25%;
+}
+#sign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(222, 243, 238);
+    background-color: rgb(0, 119, 255);
+    border-radius: 15px;
+    font-size: 1.5rem;
+    margin: 10px 10px;
+    width: 12%;
+    height: 25%;
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30, 181, 142, 0.24);
+    border-radius: 40px;
+    font-family: 'Kaushan Script', cursive;
+    padding: 13px, 14px;
+    width: 100%;
+    height: 5rem;
+    margin: 8px 8px;
+    z-index: 2;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#navbar li{
+    color: rgb(250, 255, 254);
+    list-style: none;
+    padding: 6px 6px;
+    font-size: 1.9rem;
+}
+#navbar li a{ 
+   text-decoration: none;
+    padding: 13px 12px;
+}
+#navbar li a:hover{
+    color: rgba(181, 226, 209, 0.836);  
+}
+.boxn{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(86 197 153);
+    z-index: -1;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.tit{
+    display: flex;
+    flex-direction: column;
+}
+.ti{
+    color: rgb(238, 247, 244);
+    font-size: 2.5rem;
+    font-family: 'Lobster Two', cursive;
+}
+.des{
+    color: rgb(238, 247, 244);
+    font-size: 1.3rem;
+    font-family: 'Kaushan Script', cursive;
+}
+#logo{
+    display: flex;
+    height: 190px;
+    width: 150px;
+}
+.logoImage{
+    margin-right: 15px;
+    height: 100%;
+    width: 100%;
+}
+.boxi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: center/cover no-repeat url("https://cdn.pixabay.com/photo/2016/06/02/02/31/background-1430103_960_720.png") ;
+    z-index: -1;
+}
+#introSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kaushan Script', cursive;
+    height: 425px;
+}
+#intro1{
+    display: flex;
+    height: 390px;
+    width: 980px;
+}
+.macImage{
+    margin-right: 15px;
+    height: 100%;
+    width: 100%;
+}
+.resCheck{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.topic1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 4rem;
+}
+.desc1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kalam', cursive;
+    color: black;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+#upload1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 3rem;
+}
+#upload101{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(0, 140, 255);
+    color: aliceblue;
+    border-radius: 30px;
+    width: 50%;
+    font-size: 2rem;
+    height:2.5rem;
+    padding: 15px;
+}
+/*==========================================*/
+.informationSection{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    
+}
+/* ======================================= */
+#featureDiv{
+    background: center/cover no-repeat url("https://cdn.pixabay.com/photo/2014/07/31/13/03/water-406292_960_720.jpg") ;
+    height: 326px; 
+    width: 100%;
+    margin: auto;
+}
+.backgrey{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 100px;
+}
+.function{
+    display: flex;
+    flex-direction: row;
+    border: 3px solid rgb(198 225 209 / 8%);
+    background-color: rgb(48 48 48 / 48%);
+    border-radius: 40px;
+    width: 33%;
+    margin: 38px 22px;
+    height: 239px;
+}
+#icon2{
+    display: flex;
+    height: 100px;
+    width: 330px;
+    margin: 5px;
+}
+#icon23{
+    display: flex;
+    height: 80px;
+    width: 300px;
+    margin: 5px;
+}
+.icon2Image{
+    margin-right: 5px;
+    height: 100%;
+    width: 100%;
+}
+.theory{
+    display: flex;
+    flex-direction: column;
+}
+.topic2{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.7rem;
+    margin: 10px 7px;
+}
+.desc2{
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Kalam', cursive;
+}
+/*======================================== */
+#operationDiv{
+    background: center/cover no-repeat url("https://cdn.pixabay.com/photo/2017/06/15/17/31/background-2406119_960_720.jpg") ;
+    height: 126px; 
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.os{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 100px;
+}
+.card{
+    border: 3px solid rgb(198 225 209 / 5%);
+    background-color: rgb(255 255 255 / 8%);
+    border-radius: 40px;
+    width: 22vw;
+    color: white;
+    margin: 10px;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+}
+.clip{
+    font-size: 2.4rem;
+    font-style: bold;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: bold;
+    margin: 2px;
+}
+/* ======================================= */
+#templatesSection{
+    display: flex;
+    flex-direction: column;
+    background: center/cover no-repeat url("https://cdn.pixabay.com/photo/2018/03/29/19/34/northern-lights-3273425_960_720.jpg") ;
+}
+.templateinfo{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+.temptheory{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    width: 85vw;
+}
+.temptopic{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    font-size: 3rem;
+    width: 40vw;
+    margin: 10px ;
+}
+.tempdesc{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Kalam', cursive;
+    margin: 5px;
+    width: 63vw;
+    margin-left: 40px;
+}
+.templatetype{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+.tempOption{
+    height: 350px;
+    margin: 20px 80px;
+}
+/*======================================== */
+#proofSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: 100vw;
+    background: center/cover no-repeat url("https://cdn.pixabay.com/photo/2016/09/08/21/20/transparent-1655599_960_720.png") ;
+}
+.proofleft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+}
+.prooftopic{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 34, 18);
+    text-align: center;
+    font-size: 3rem;
+    width: 50vw;
+    margin: 10px ;
+    margin-top: 10px;
+}
+.proofdesc{
+    font-size: 2rem;
+    color: rgb(0, 61, 36);
+    font-family: 'Kalam', cursive;
+    margin: 5px;
+    width: 55vw;
+    margin-top: 5px;
+}
+#proofbtn1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 2rem;
+}
+#btn101{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(1, 194, 162);
+    color: aliceblue;
+    border-radius: 30px;
+    width: 50%;
+    font-size: 2rem;
+    height:2.5rem;
+    padding: 15px;
+}
+.proofright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    margin-left: 5vw;
+}
+.imgproof{
+    width: 35vw;
+    margin: 20px 50px;
+}
+/*======================================== */
+#sponsorSection{
+    display: flex;
+    flex-direction: column;
+    height: 275px;
+    background: center/cover no-repeat url("https://cdn.pixabay.com/photo/2018/12/18/22/29/background-3883181_960_720.jpg") ;
+} 
+#sponsorSection h2{
+    text-align: center;
+    font-size: 3.2rem;
+    font-family: 'Nerko One', cursive;
+    color: aliceblue;
+    padding: 12px 12px;
+} 
+#sponsors{
+    height: 120px;
+    max-width: 100px;
+    margin: auto
+}
+.spImage{
+    height: 150px;
+    margin: 20px 50px;
+}
+.ss{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 40px;
+}
+#footer p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 1.3rem;
+}
